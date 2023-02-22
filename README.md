@@ -1,6 +1,17 @@
 # bs4langcompiler
 package bs4 to run script fetch a html 
 
+anysl:
+```
+match [label] [class] [(^$%/)attr(^$%/)="str"]  [!text(^$%)="str"]
+list [var]
+print [var]
+
+``` 
+str cant not be use mulit line
+
+inside the str you can use /" 
+
 html:
 ```
 <!DOCTYPE html>
