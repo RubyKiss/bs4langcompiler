@@ -1,6 +1,40 @@
 # bs4langcompiler
 package bs4 to run script fetch a html 
 
+html:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="a">1234<a>666</a></div>
+    <ul>
+        <li>abc</li>
+        <li>ddd</li>
+        <li class="li">eeeeeeee111</li>
+        <li>8882222eeee666</li>
+        <li class="active">777777888</li>
+    </ul>
+    <ul open="789">
+        <li>abc</li>
+        <li>ddd</li>
+        <li>eeeeeeee111</li>
+        <li class="li">8882222eeee666</li>
+        <li class="active">7777778881</li>
+    </ul>
+    <span>2333 yes i do</span>
+    <div class="a">change you home</div>
+
+</body>
+</html>
+```
+
+
 scripts:
 ```
 
